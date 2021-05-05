@@ -1,0 +1,142 @@
+.footer{
+  padding: 85px 0 86px;
+  &__address{
+    width: 65px;
+    height: 22px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+  }
+  &__details{
+    width: 254px;
+    height: 54px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+    margin: 33px 0 141px 0;
+  }
+  &__license{
+    width: 155px;
+    height: 14px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    margin-left: 0;
+  }
+  &__services{
+    width: 67px;
+    height: 22px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-left: 30px;
+  }
+  &__servicesList{
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+    margin-left: 30px;
+    width: 254px;
+    height: 114px;
+    &_list{
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 160%;
+      text-transform: capitalize;
+      color: #000000;
+      text-decoration: none;
+    }
+  }
+&__touch{
+  width: 101px;
+  height: 22px;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+}
+  &__mail{
+    width: 122px;
+    height: 14px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    margin: 33px 0 11px 0;
+  }
+  &__tel{
+    width: 96px;
+    height: 14px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #121212;
+    margin-bottom: 21.17px;
+  }
+  &__networks img{
+    margin-right: 13px;
+    border-radius: 0;
+    &:first-child{
+      width: 6.42px;
+      height: 11.67px;
+    }
+    &:nth-child(2){
+      width: 11.67px;
+      height: 11.08px;
+    }
+    &:last-child{
+      width: 12.83px;
+      height: 10.47px;
+    }
+  }
+  &__support{
+    width: 101px;
+    height: 22px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 33px;
+  }
+  &__payment img{
+    width: 216px;
+    height: 31px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6670ca29-992c-4983-82af-1870232436fc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qZLGPclbUQUoHMfypgKIFIYJzi" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bakhram.latikhanov\Desktop\beginnerJS\myFirstProject\src\libs\jquery" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6670ca29-992c-4983-82af-1870232436fc" name="Default Changelist" comment="" />
+      <created>1617282068284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617282068284</updated>
+      <workItem from="1617282069406" duration="3867000" />
+      <workItem from="1617348728116" duration="485000" />
+      <workItem from="1617451442204" duration="2402000" />
+      <workItem from="1617520076469" duration="2806000" />
+      <workItem from="1617547616298" duration="3422000" />
+      <workItem from="1617651357435" duration="8208000" />
+      <workItem from="1617711476525" duration="19494000" />
+      <workItem from="1617877464729" duration="15000" />
+      <workItem from="1617883019114" duration="1462000" />
+      <workItem from="1617889618023" duration="562000" />
+      <workItem from="1617954178489" duration="7462000" />
+      <workItem from="1618054444242" duration="3911000" />
+      <workItem from="1618058388808" duration="15000" />
+      <workItem from="1618058435433" duration="23898000" />
+      <workItem from="1618399258068" duration="21763000" />
+      <workItem from="1618736698874" duration="3610000" />
+      <workItem from="1618911750907" duration="6828000" />
+      <workItem from="1619075276665" duration="3669000" />
+      <workItem from="1619086729129" duration="684000" />
+      <workItem from="1619267508665" duration="36000" />
+      <workItem from="1619438236127" duration="4605000" />
+      <workItem from="1619458552445" duration="3286000" />
+      <workItem from="1619754068262" duration="9288000" />
+      <workItem from="1619806202237" duration="1237000" />
+      <workItem from="1619863006428" duration="1270000" />
+      <workItem from="1619956101012" duration="347000" />
+      <workItem from="1619965100103" duration="1187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618059943042">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1618059943042" />
+    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1618056263336">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618056263336" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1618058498439">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1618058498439" />
+    <state x="302" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1618308382728">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="302" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1618308382728" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1618311076325">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1618311076325" />
+  </component>
+</project>

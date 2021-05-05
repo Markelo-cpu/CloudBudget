@@ -1,0 +1,113 @@
+.technology{
+  padding: 63px 0px 108px 0px;
+  background-color: #FFFFFF ;
+&__title{
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 52px;
+}
+  &__item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background: #FFFFFF;
+    width: 255px;
+    height: 226px;
+    margin-right: 30px;
+    &_numeration1{
+      position: absolute;
+      background: url("../images/technology/item1/background.png") no-repeat #FFFFFF center;
+      background-size: contain;
+      width: 117px;
+      height: 120px;
+      }
+    &_numeration1:after{
+      content: url("../images/technology/item1/Vector1.png");
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      top: 60%;
+    }
+    &_numeration1:before{
+      content: url("../images/technology/item1/Vector2.png");
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      top: 80%;
+    }
+    &_numeration2{
+      position: absolute;
+      background: url("../images/technology/item2/background.png") no-repeat #FFFFFF center;
+      background-size: contain;
+      width: 117px;
+      height: 120px;
+    }
+    &_numeration2:after{
+      content: url("../images/technology/item2/Vector.png");
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      top: 60%;
+    }
+    &_numeration3{
+      position: absolute;
+      background: url("../images/technology/item3/background.png") no-repeat #FFFFFF center;
+      background-size: contain;
+      width: 117px;
+      height: 120px;
+    }
+    &_numeration3:after{
+      content: url("../images/technology/item3/vector.png");
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      top: 60%;
+    }
+    &_numeration4{
+      position: absolute;
+      background: url("../images/technology/item4/background.png") no-repeat #FFFFFF center;
+      background-size: contain;
+      width: 117px;
+      height: 120px;
+    }
+    &_numeration4:after{
+      content: url("../images/technology/item4/vector.png");
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      top: 60%;
+    }
+    &_title{
+      position: absolute;
+      top: 60%;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #101010;
+    }
+    &_subtitle{
+      position: absolute;
+      top: 72%;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #000000;
+    }
+  }
+
+  &__item:last-child{
+    margin-right: 0;
+  }
+  }

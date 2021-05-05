@@ -1,0 +1,41 @@
+.video {
+  padding: 94px 0 95px;
+}
+.video__title {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  line-height: 43px;
+  margin-top: 46px;
+  font-weight: 600;
+  font-size: 36px;
+}
+.video__subtitle {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  line-height: 140%;
+  margin: 25px 0;
+  font-size: 14px;
+}
+.video__learnMore {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 140%;
+  color: #ED4C5C;
+  text-decoration: none;
+}
+.video__row {
+  display: flex;
+}
+.video__col-6 {
+  width: 50%;
+  height: 311px;
+}
+.video__col-6_second {
+  position: relative;
+  background: url("../images/video/Video_bg.png") top left/100% 100% no-repeat;
+}

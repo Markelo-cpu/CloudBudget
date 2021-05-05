@@ -1,0 +1,77 @@
+@mixin header($sz, $ln){
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: $sz;
+  line-height: $ln;
+}
+.header{
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  &__nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo{
+    display: flex;
+    column-gap: 9px;
+  }
+  &__img{
+    width: 24.65px;
+    height: 17.4px;
+  }
+  &__title{
+    @include header(18px, 22px);
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__menu{
+    display: flex;
+    column-gap: 25px;
+    list-style-type: none;
+  }
+  &__item{
+    @include header(14px, 17px);
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__form{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+  }
+  &__btn{
+    @include header(14px, 17px);
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    outline: none;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  &__langSelect{
+    width: 96px;
+    height: 32px;
+    padding-left: 43px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+  }
+  &__lang{
+    color: white;
+    background-color: saddlebrown;
+  }
+  &__logo-burger{
+    display: none;
+  }
+}

@@ -1,0 +1,81 @@
+@mixin text($ln){
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  line-height: $ln;
+}
+.video {
+  padding: 94px 0 95px;
+
+  &__title {
+    @include text(43px);
+    margin-top: 46px;
+    font-weight: 600;
+    font-size: 36px;
+  }
+
+  &__subtitle {
+    @include text(140%);
+    margin: 25px 0;
+    font-size: 14px;
+  }
+
+  &__learnMore {
+    @include text(140%);
+    color: #cf1f30;
+    text-decoration: none;
+  }
+
+  &__row {
+    display: flex;
+  }
+
+  &__col-6 {
+    position: relative;
+    height: 311px;
+
+    &_second {
+      position: relative;
+      background: url("../images/video/Video_bg.png") top left/100% 100% no-repeat;
+    }
+
+    &_player {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      background-color: #ED4C5C;
+      border-radius: 50px;
+      outline: none;
+      border: none;
+      top: 50%;
+      transform: translate( -50%, -50%);
+
+      cursor: pointer;
+    }
+
+    &_player:before {
+      content: url("../images/video/PlaySolid(F5B0).png");
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

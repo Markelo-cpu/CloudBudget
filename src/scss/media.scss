@@ -1,0 +1,139 @@
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1024px) {
+.container{
+  max-width: 980px;
+}
+  .contact__form{
+    width: 470px;
+  }
+  .contact__input{
+    width: 470px;
+  }
+  .contact__select{
+    width: 470px;
+  }
+  .flagImage{
+    width: 300px;
+    height: 267px;
+  }
+  #slider label{
+    right: 70px;
+  }
+}
+@media (max-width: 993px) {
+.vafli{
+  display: none;
+}
+  .header__logo-burger{
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .container{
+   max-width: 960px;
+    padding: 0 15px;
+  }
+  .header__logo-burger{
+    display: flex;
+    position: relative;
+    top: 50px;
+  }
+  .vafli{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #5d5b5b;
+    position: fixed;
+    top: 52px;
+    right: 30px;
+    border-radius: 7px;
+    z-index: 10;
+    &-line{
+      height: 2px;
+      width: 100%;
+      background-color: #FFFFFF;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      &::before{
+        position: absolute;
+        content: '';
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 2px;
+        top: -9px;
+        left: 0;
+      }
+      &::after{
+        position: absolute;
+        content: '';
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        left: 0;
+      }
+    }
+  }
+  .vafli.active{
+    .vafli-line{
+      height: 0;
+      &::before{
+        transform: rotate(-45deg);
+        top: 0;
+      }
+      &::after{
+      transform: rotate(45deg);
+        top: 0;
+      }
+    }
+  }
+  .header__nav{
+    display: none;
+  }
+  .header__nav.active{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #5d5b5b;
+    height: 100vh;
+    justify-content: center;
+    opacity: .9;
+    z-index: 10;
+    .header__logo{
+      display: none;
+    }
+    .header__menu{
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .header__item{
+      margin-top: 15px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
